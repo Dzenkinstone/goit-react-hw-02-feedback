@@ -1,11 +1,6 @@
 import PropTypes from 'prop-types';
 
-import {
-  ButtonContainer,
-  ButtonContainerTitle,
-  ButtonWrapper,
-  Button,
-} from './FeedbackOptions.styled';
+import { ButtonWrapper, Button } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
